@@ -1,0 +1,57 @@
+.block {
+    width: 20rem;
+    height: auto;
+    padding: 0.5rem;
+    background-color: gray;
+    font-weight: bolder;
+    margin: 0 1rem;
+}
+
+
+.valid {
+    background-color: rgba(0,2555,0,1);
+    color: white;
+}
+
+.invalid {
+    background-color: red;
+    color: white;
+}
+
+.block .header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.block .meta {
+
+}
+
+.block .meta table {
+    width: 100%;
+    margin: 0.5rem 0;
+    border: 1px solid black;
+}
+
+.block .meta td {
+    border: 1px solid black;
+    padding: 0 0.5rem
+}
+
+.block .txns {
+    color: red;
+}
+
+.block .txns table {
+    margin: 0.5rem 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.block .txns td {
+    border: 1px solid black;
+    padding: 0 0.5rem
+}
